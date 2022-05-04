@@ -345,6 +345,7 @@ body {
   .me__footer-left {
     border-right: none;
     max-width: none;
+    padding-right: 0px;
   }
   .me__footer-right {
     max-width: none;
@@ -674,6 +675,9 @@ body {
 @media (max-width: 860px) {
   .down {
     padding: 40px 0px 0px 0px;
+  }
+  .down__text {
+    font-size: 14px;
   }
 }
 
